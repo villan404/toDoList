@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+.login{
+    display: flex;
+    border: 2px solid blanchedalmond;
+    height: 50vh;
+    width: 60vw;
+    /* border: 0.3rem; */
+    border-radius: .3rem;
+}
+
+#loginform{
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 50vw;
+    background-image: url(abstract-black-futuristic-background\(1\).jpg);
+    background-size: 458px  400px;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    row-gap: 20px;
+    flex-direction: column;
+    border-radius: .3rem;
+
+}
+
+#signupform{
+    /* border: 2px solid rgb(71, 16, 219); */
+    height: 50vh;
+    width: 50vw;
+    background-image: url(15592515_5641716.jpg);
+    background-size: 460px  400px;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    flex-direction: column;
+    border-radius: .3rem;
+
+}
+
+.tab{
+    position: absolute;
+    /* border: 2px solid rgb(243, 0, 0); */
+    height: 50vh;
+    width: 30vw;
+    /* background-color: aqua; */
+    left: 50%;
+    background-image: url(6184159_3094352.jpg);
+    background-size: 460px  400px;
+    background-repeat:no-repeat;
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.greeting , .sbtn{
+    height: 20px;
+    width: 140px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: .2rem;
+    background-color: #525252;
+}
+
+#loginform input{
+    border: none;
+    border-radius: 0.2rem;
+    height: 1.3rem;
+    width: 15vw;
+    padding: 10px;
+    background-color: #C9E3AC;
+
+}
+
+#loginform input[type = "button"]{
+    height: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 0px 10px;
+}
+#signupform input{
+    border: none;
+    border-radius: 0.2rem;
+    height: 1.3rem;
+    width: 15vw;
+    padding: 10px;
+    background-color: #C9E3AC;
+}
+
+#signupform input[type = "button"]{
+    height: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 0px 10px;
+}

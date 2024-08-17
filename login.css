@@ -19,7 +19,9 @@ body{
     /* border: 0.3rem; */
     border-radius: .3rem;
 }
-
+img{
+    display: none;
+}
 #loginform{
     /* border: 2px solid black; */
     height: 50vh;
@@ -109,4 +111,34 @@ body{
     color: rgb(0, 0, 0);
     font-size: large;
     padding: 0px 10px;
+}
+
+@media screen and (max-width : 600px) {
+    .tab{
+        display: none;
+    }
+    img{
+        display: flex;
+        position: absolute;
+        height: 20px;
+        left: 48%;
+        z-index: 1;
+    }
+    #loginform{
+        width: 60vw;
+    }
+    #loginform input{
+        width: 40vw;
+    }
+    #signupform{
+        /* width: 0; */
+        /* overflow-x: hidden; */
+        position: absolute;
+        width: 60vw;
+        height: 0px;
+        overflow-y: hidden;
+    }
+    #signupform input{
+        width: 40vw;
+    }
 }
